@@ -1,0 +1,87 @@
+<!-- Beginng of the code. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Title of the page, that shows on the browsers tab. -->
+    <title>Digital Library</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Google fonts link. -->    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+<!-- CSS link. -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <header class="header">
+		<h1 class="logo"><a href="#">Library Management</a></h1>
+      <ul class="main-nav">
+<!-- Menu bar at the top of the screen. -->
+          <li><a href="index.html">Home</a></li>
+<!-- Put my portfolio through a link when clicking 'About'.-->
+          <li><a href="https://thajeepan-rathiharan.github.io/thajeepan_rathiharan/" target="_blank">About</a></li>
+<!-- The following two menu options have '#' as their link, so it won't take the user anywhere, as '#' is just a placeholder. -->
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+	</header> 
+<!-- Body element. -->
+  <body>
+    <div class="wrapper">
+<!-- Search bar. Will only return books that are featured in the code. -->
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search Title name here.."
+        />
+        <button id="search">Search</button>
+      </div>
+<!-- Buttons to load up books from the different genres. Won't have too many books, I aimed for 15 books altogether, but will seperate them between the 5 categories. -->
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Coding')">
+          Coding
+        </button>
+        <button class="button-value" onclick="filterProduct('Science')">
+          Science
+        </button>
+        <button class="button-value" onclick="filterProduct('Horror')">
+          Horror
+        </button>
+        <button class="button-value" onclick="filterProduct('Crime')">
+          Crime
+        </button>
+        <button class="button-value" onclick="filterProduct('Adventure')">
+          Adventure
+        </button>
+      </div>
+      <div id="Books"></div>
+    </div>
+    <!-- JavaScript link -->
+    <script src="JS/script.js"></script>
+  </body>
+      
+<!-- Footer -->
+  <footer>
+    <div class="footer">
+    <div class="row">
+    <a href="https://github.com/Thajeepan-Rathiharan" target="_blank"><i class="fa fa-github"></i></a>
+    </div>
+    <div class="row">
+    <ul>
+    <li><a href="#">Contact us</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+    </ul>
+    </div>
+    
+    <div class="row">
+    Designed By Thajeepan Rathiharan 
+    </div>
+    </div>
+    </footer>
+    
+</html>
+<!-- End of the code, -->
