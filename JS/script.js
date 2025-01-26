@@ -1,10 +1,11 @@
 let products = {
     data : [
+        /* Ordered the books in alphabetical order by authors first names. */
         {
-            title: "title : SQL in Easy Steps",
-            author: "author : Mike McGrath",
-            subject: "Coding",
-            image: "./IMG/easysql.jpg" ,
+            title: "title : Beast Quest: Ferno The Fire Dragon",
+            author: "author : Adam Blade",
+            subject: "Fantasy",
+            image: "./IMG/beast.jpg" ,
         },
         {
             title: "title : Learning SQL",
@@ -13,46 +14,16 @@ let products = {
             image: "./IMG/sql.jpg" ,
         },
         {
-            title: "title : T SQL",
-            author: "author : Itzik Ben-Gan",
-            subject: "Coding",
-            image: "./IMG/tsql.jpg" ,
-        },
-        {
-            title: "title : A Briefer History of Time",
-            author: "author : Stephen Hawking",
-            subject: "Science",
-            image: "./IMG/sh.jpg" ,
-        },
-        {
-            title: "title : The Philosophy and Practise of Science",
-            author: "author : David B. Teplow",
-            subject: "Science",
-            image: "./IMG/ps.jpg" ,
-        },
-        {
-            title: "title : Life or Death",
-            author: "author : Michael Robotham",
-            subject: "Crime",
-            image: "./IMG/lod.jpg" ,
+            title: "title : Rock Paper Killers",
+            author: "author : Alexia Mason",
+            subject: "Fantasy",
+            image: "./IMG/rpk.jpg" ,
         },
         {
             title: "title : A Better Quality Murder",
             author: "author : Ann Granger",
             subject: "Crime",
             image: "./IMG/abqm.jpg" ,
-        },
-        {
-            title: "title : Holly",
-            author: "author : Stephen King",
-            subject: "Horror",
-            image: "./IMG/holly.jpg" ,
-        },
-        {
-            title: "title : Harry Potter and the Deathly Hallows",
-            author: "author : J.K. Rowling",
-            subject: "Fantasy",
-            image: "./IMG/harry.jpg" ,
         },
         {
             title: "title : Horseman",
@@ -67,29 +38,59 @@ let products = {
             image: "./IMG/nearthebone.jpg" ,
         },
         {
-            title: "title : Skulduggery Pleasant",
-            author: "author : Derek Landy",
-            subject: "Fantasy",
-            image: "./IMG/sdp.jpg" ,
-        },
-        {
-            title: "title : Beast Quest: Ferno The Fire Dragon",
-            author: "author : Adam Blade",
-            subject: "Fantasy",
-            image: "./IMG/beast.jpg" ,
-        },
-        {
             title: "title : Solo Levelling: Volume 1",
             author: "author : Chugong",
             subject: "Fantasy",
             image: "./IMG/solo.jpg" ,
         },
         {
-            title: "title : Rock Paper Killers",
-            author: "author : Alexia Mason",
-            subject: "Fantasy",
-            image: "./IMG/rpk.jpg" ,
+            title: "title : The Philosophy and Practise of Science",
+            author: "author : David B. Teplow",
+            subject: "Science",
+            image: "./IMG/ps.jpg" ,
         },
+        {
+            title: "title : Skulduggery Pleasant",
+            author: "author : Derek Landy",
+            subject: "Fantasy",
+            image: "./IMG/sdp.jpg" ,
+        },
+        {
+            title: "title : T SQL",
+            author: "author : Itzik Ben-Gan",
+            subject: "Coding",
+            image: "./IMG/tsql.jpg" ,
+        },
+        {
+            title: "title : Harry Potter and the Deathly Hallows",
+            author: "author : J.K. Rowling",
+            subject: "Fantasy",
+            image: "./IMG/harry.jpg" ,
+        },
+        {
+            title: "title : Life or Death",
+            author: "author : Michael Robotham",
+            subject: "Crime",
+            image: "./IMG/lod.jpg" ,
+        },
+        {
+            title: "title : SQL in Easy Steps",
+            author: "author : Mike McGrath",
+            subject: "Coding",
+            image: "./IMG/easysql.jpg" ,
+        },
+        {
+            title: "title : A Briefer History of Time",
+            author: "author : Stephen Hawking",
+            subject: "Science",
+            image: "./IMG/sh.jpg" ,
+        },
+        {
+            title: "title : Holly",
+            author: "author : Stephen King",
+            subject: "Horror",
+            image: "./IMG/holly.jpg" ,
+        }
     ],
 };
 
