@@ -2,7 +2,7 @@ let products = {
     data : [
         {
             title: "title : SQL in Easy Steps",
-            author: "author : P JAGADEESH",
+            author: "author : Mike McGrath",
             subject: "Coding",
             image: "img/easysql.jpg" ,
         },
