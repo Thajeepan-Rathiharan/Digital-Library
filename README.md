@@ -7,10 +7,9 @@ It's not an exact replica of what is in my imagination, but digital wise, this w
 
 ## Features of the site
 
-* Feature 1 - Fully functioning tabs that load up different books.
+* Feature 1 - Simple design.
 * Feature 2 - Has a search bar which can bring up a book that you see.
-* Feature 3 - Simple design.
-* Feature 4 - Links to my portfolio when clicking 'About' in the top menu bar.
+* Feature 3 - Fully functioning tabs that load up different books.
 
 ## Technology used
 
@@ -30,13 +29,13 @@ I tested my website using online tools such as:
 
 ### HTML WC3 Markup Validation Service
 
-First the website was put through the [HTML WC3 Markup Validation Service](https://validator.w3.org/) and it came back with no errors on the html validator.
+First the website was put through the [HTML WC3 Markup Validation Service](https://validator.w3.org/) and it came back with no errors on the html validator. It shows that some warnings, but they aren't anything major that distrups the loading time of the website, nor does it affect the content that is shown.
 
 ![HTML validation](./IMG/html_checker.jpg)
 
 ### CSS WC3 Markup Validation Service
 
-Then the website was also put through the [CSS WC3 Markup Validation Service](https://www.cssportal.com/css-validator/) and it came back with no errors on the css validator.
+Then the website was also put through the [CSS WC3 Markup Validation Service](https://www.cssportal.com/css-validator/) and it came back with no errors on the css validator. It came back with a warning and an error, but the errors are showing up as the CSS rules shown aren't linked to the html as they don't appear until the element appears when clicking on one of the genre options.
 
 ![CSS validation](./IMG/css_check.jpg)
 
@@ -48,7 +47,7 @@ Finally the website was tested through the [JavaScript Validation Service](https
 
 ### Performance check
 
-Page loading times and performance of the quiz website was checked through the open source tool called 'Google Lighthouse'. 
+Page loading times and performance of the quiz website was checked through the open source tool called 'Google Lighthouse'. Overall, it is performing at a decent rate, there is room for improvement, but as this is just a random project I'm not too bothered about the Accessibility and SEO having a score below 90.
 
 ![Google Lighthouse](./IMG/gl_check.jpg)
 
