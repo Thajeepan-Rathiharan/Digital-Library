@@ -123,11 +123,6 @@ for(let i of products.data){
     sub.innerText = i.subject.toUpperCase();
     container.appendChild(sub);
 
-    let date = document.createElement("h6");
-    date.classList.add("date");
-    date.innerText = i.date.toUpperCase();
-    container.appendChild(date);
-
     card.appendChild(container);
     document.getElementById("Books").appendChild(card);
 }
