@@ -24,33 +24,33 @@ It's not an exact replica of what is in my imagination, but digital wise, this w
 ## Testing of the site
 
 I tested my website using online tools such as: 
-* [HTML WC3 Markup Validation Service](https://validator.w3.org/#validate_by_input)
-* [CSS WC3 Markup Validation Service](https://jigsaw.w3.org/css-validator/)
-* [JavaScript Validation Servce](https://jshint.com/)
+* [HTML WC3 Markup Validation Service](https://validator.w3.org/)
+* [CSS WC3 Markup Validation Service](https://www.cssportal.com/css-validator/)
+* [JavaScript Validation Servce](https://esprima.org/demo/validate.html)
 
 ### HTML WC3 Markup Validation Service
 
-First the website was put through the [HTML WC3 Markup Validation Service](https://validator.w3.org/#validate_by_input) and it came back with no errors on the html validator.
+First the website was put through the [HTML WC3 Markup Validation Service](https://validator.w3.org/) and it came back with no errors on the html validator.
 
-![HTML validation]()
+![HTML validation](./IMG/html_checker.jpg)
 
 ### CSS WC3 Markup Validation Service
 
-Then the website was also put through the [CSS WC3 Markup Validation Service](https://jigsaw.w3.org/css-validator/) and it came back with no errors on the css validator.
+Then the website was also put through the [CSS WC3 Markup Validation Service](https://www.cssportal.com/css-validator/) and it came back with no errors on the css validator.
 
-![CSS validation]()
+![CSS validation](./IMG/css_check.jpg)
 
 ### JavaScript Validation Service
 
-Finally the website was tested through the [JavaScript Validation Service](https://validator.w3.org/#validate_by_input) and it came back with no errors on the jshint validator.
+Finally the website was tested through the [JavaScript Validation Service](https://esprima.org/demo/validate.html) and it came back with no errors on the jshint validator.
 
-![JavaScript validation]()
+![JavaScript validation](./IMG/js_check.jpg)
 
 ### Performance check
 
 Page loading times and performance of the quiz website was checked through the open source tool called 'Google Lighthouse'. 
 
-![Google Lighthouse]()
+![Google Lighthouse](./IMG/gl_check.jpg)
 
 ## Deployment
 
