@@ -31,10 +31,10 @@ let products = {
             image: "./IMG/ps.jpg" ,
         },
         {
-            title: "title : Horrowitz Horror",
-            author: "author : Anthony Horowitz",
+            title: "title : Life or Death",
+            author: "author : Michael Robotham",
             subject: "Crime",
-            image: "./IMG/ah.jpg" ,
+            image: "./IMG/lod.jpg" ,
         },
         {
             title: "title : A Better Quality Murder",
@@ -70,10 +70,10 @@ let products = {
             title: "title : Skulduggery Pleasant",
             author: "author : Derek Landy",
             subject: "Fantasy",
-            image: "./IMG/sdp.jpeg" ,
+            image: "./IMG/sdp.jpg" ,
         },
         {
-            title: "title : Beast Quest: The Fire Dragon",
+            title: "title : Beast Quest: Ferno The Fire Dragon",
             author: "author : Adam Blade",
             subject: "Fantasy",
             image: "./IMG/beast.jpg" ,
